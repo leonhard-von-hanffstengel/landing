@@ -1,0 +1,32 @@
+.banner {
+	background-image: linear-gradient(-200deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../images/background02.jpg);
+	color: #f1f1ef;
+	background-position: center 52%;
+	background-size: cover;
+	height: 525px;
+	padding: 35px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner h1 {
+	font-size: 52px;
+	font-weight: 650;
+}
+
+.banner h2 {
+	font-weight: 250;
+	font-size: 27px;
+	margin-bottom: 58px;
+}
+
+
+@media (max-width: 760px) {
+	.banner {
+		height: 350px;
+	}
+	.banner h2 {
+		margin-bottom: 40px;
+	}
+}

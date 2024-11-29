@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&family=Manrope:wght@200..800&display=swap');
+
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url("components/button.css"); 
+@import url("components/card.css");
+@import url("components/border.css");
+
+body {
+	font-family: "Manrope", sans-serif;
+	font-size: 20px;
+	background-color: #f1f1ef;
+	margin: 0px;
+}
+
+h1, h2, h3 {
+	font-family: "DM Sans", sans-serif;
+}
+
+a {
+	text-decoration: none;
+	transition: 0.4s ease;
+}
